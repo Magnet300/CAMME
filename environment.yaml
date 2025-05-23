@@ -1,0 +1,19 @@
+name: CAMME
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.4
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - pip=23.3.1
+  - pip:
+    - transformers==4.47.0
+    - open-clip-torch==2.26.1
+    - torch-dct==0.1.6
+    - tqdm==4.66.5
+    - pillow==10.3.0
+    - matplotlib==3.8.4
+    - numpy==1.26.4
+    - torchinfo==1.8.0
